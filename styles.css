@@ -1,0 +1,31 @@
+body {
+    background-image: url('images/images.jpg'); /* Замініть your_image.jpg на ім'я вашого зображення */
+    background-size: cover; /* Адаптація розміру фону до розміру вікна */
+    background-repeat: no-repeat; /* Заборона повторювання зображення */
+}
+
+header {
+    background-color: #daad86; /* Фон заголовка */
+    color: #fff; /* Колір тексту заголовка */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Колір тексту гіперпосилань */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
